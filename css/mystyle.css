@@ -1,0 +1,67 @@
+/* 
+    Document   : mystyle
+    Created on : 29.10.2013, 09:46:56
+    Author     : petersen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+padding-top: 20px;
+padding-bottom: 40px;
+background-color: #ffffee;
+color: #000033;
+}
+
+/* seite */
+.seite {
+margin: 0 auto;
+max-width: 700px;
+padding: 20px;
+}
+.seite > hr {
+margin: 30px 0;
+color: #000033;
+
+}
+
+/* Kopf */
+.kopf {
+margin: 60px 0; 
+max-height: 350px;
+text-align: right;
+}
+
+.kopf h1 {
+font-size: 72px;
+line-height: 1;
+
+
+}
+.kopf .btn {
+font-size: 21px;
+padding: 14px 24px;
+}
+
+/* inhalt */
+.inhalt {
+margin: 60px 0;
+
+}
+
+.inhalt article p + h4 {
+margin-top: 28px;
+}
+
+.inhalt article {
+ padding-bottom: 14px;
+ 
+}
+
+
+footer .f_links  {  float: left;
+        text-align: left;
+                   }
+footer .f_rechts  {  float: rigth;
+                 text-align: right;  
+}
