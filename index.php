@@ -60,7 +60,7 @@
 
                     <article> 
                         <h4>GIT-Tutorial</h4>
-                        <p>Äh, wo warnochmal die letzte Version? Wie, weg?<br />  
+                        <p>Äh, wo war nochmal die letzte Version? Wie, weg?<br />  
                             Och nö, menno kann doch nich war sein. Geht das nicht anders? Das Chaos bändigen?
                             Oder einfach nur durchblicken und doch mal fertig werden?<br />
                             <a class="btn btn-info" href='http://git.storchbraterei.de' target='_blank'>Doch hier gehts lang</a></p>
@@ -71,7 +71,7 @@
                         <p>Wo? Latürnich auf  
                             <a class="btn btn-primary btn-small " 
                                href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung">iversity.org</a>
-                                der einzig wahren Wissenstankstelle im Netz
+                                der einzig wahren Wissenstankstelle im Netz.
                     </article>    
                 </div>
 
