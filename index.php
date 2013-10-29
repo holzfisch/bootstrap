@@ -23,9 +23,9 @@
 
             <div class="navigation">
                 <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="/">na Hus</a></li>
-                    <li><a href="#">Över</a></li>
-                    <li><a href="#">Breefkasten</a></li>
+                    <li class="active"><a href="index.php">na Hus</a></li>
+                    <li><a href="oever.php">Över</a></li>
+                    <li><a href="breefkasten.php">Breefkasten</a></li>
                 </ul>
                 <h3 class="muted">De T&uuml;ffeltuterie</h3>
             </div>
@@ -44,13 +44,8 @@
             <div class="row-fluid inhalt">
                 <div class="span12">
                     <article>
-                        <p>Up düsse Siede findt Se dat aller Neeste över dat Tüffeltuten 
-                            und wat ook noch daarto hören dot.</p>
-
-                        <p>Un dat Se  över all de veelen Informationen de Öwersicht beholen dot, 
-                            heft ick mie hier op dat Nootwendigste beschränken dot. <br />
-                            Dorbie heft ich mie dacht, dat Se dör de Verbindung von de Daten flink und 
-                            zielseeker up dat too kommt, wat Se eegentlich söken wullt.</p>
+                        Dat aller Neeste över dat Tüffeltuten 
+                        und wat ook noch daarto hören dot.
                     </article>
                 </div>
             </div>
@@ -65,16 +60,18 @@
 
                     <article> 
                         <h4>GIT-Tutorial</h4>
-                        <p>Äh, wo warnochmal die letzte Version? Wie weg?  
-                            Och nö, menno kann doch nich war sein. Geht das nicht anders? <br />
+                        <p>Äh, wo warnochmal die letzte Version? Wie, weg?<br />  
+                            Och nö, menno kann doch nich war sein. Geht das nicht anders? Das Chaos bändigen?
+                            Oder einfach nur durchblicken und doch mal fertig werden?<br />
                             <a class="btn btn-info" href='http://git.storchbraterei.de' target='_blank'>Doch hier gehts lang</a></p>
                     </article>    
 
                     <article> 
                         <h4>Tüffeltuten lernen</h4>
-                        <p>latürnich auf  
-                            <a class="btn btn-primary" 
+                        <p>Wo? Latürnich auf  
+                            <a class="btn btn-primary btn-small " 
                                href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung">iversity.org</a>
+                                der einzig wahren Wissenstankstelle im Netz
                     </article>    
                 </div>
 
@@ -106,7 +103,7 @@
 
                     <article> 
                         <h4>Und wo ist der Rest?</h4>
-                        <p><a class="btn btn-large btn-danger" href='http://lmgtfy.com/?q=Wo+ist+der+Rest%3F' target='_blank'>na Hier</a></p>
+                        <p><a class="btn btn-block btn-large btn-danger" href='http://lmgtfy.com/?q=Wo+ist+der+Rest%3F' target='_blank'>na Hier</a></p>
                     </article>    
 
                 </div>
@@ -116,14 +113,15 @@
             <div class='clearfix'></div>
             <footer class="footer">
                 <hr />
-                <div class='f_links'><?php echo $_SERVER['HTTP_USER_AGENT'] . "<br />" . $_SERVER['REMOTE_ADDR'] . "<br />" . date("d.m.Y"); ?></div>
-                <div class='f_rechts'><a href="http://validator.w3.org/check?uri=bootstrap.storchbraterei.de" target="_blank">Valides HTML5? Hier Prüfen!</a></div>
+                <div class='pull-left'><?php echo $_SERVER['HTTP_USER_AGENT'] . "<br />" . $_SERVER['REMOTE_ADDR'] . "<br />" . date("d.m.Y"); ?></div>
+                <div class='pull-right'><a href="http://validator.w3.org/check?uri=bootstrap.storchbraterei.de" target="_blank">Valides HTML5? Hier Prüfen!</a></div>
             </footer>
 
         </div> <!-- /container -->
 
 
         <!--Script am ende einladen, geht scneller -->
+        <!--  weil wir ja auch schon so wahnsinnig viel JS benutzen -->
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
