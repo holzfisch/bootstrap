@@ -62,17 +62,7 @@
 					</p>
 				</article>
 
-				<form action="kontakt.php" method="post">
-					<label for="vorname">Vorname:</label> <input id="vorname"
-						type="text" name="vorname" /> <label for="nachname">Nachname:</label>
-					<input id="nachname" type="text" name="nachname" /> <label
-						for="email">Ihre E-Mail-Adresse:</label> <input id="email"
-						type="text" name="email" /> <label id="betreff" for="betreff">Betreff:</label>
-					<input id="betreff" type="text" name="betreff" /> <label
-						for="nachricht">Ihre Nachricht:</label>
-					<textarea id="nachricht" name="nachricht"></textarea>
-
-					<input id="submit" type="submit" name="submit" value="Abschicken" />
+				
 			
 			</div>
 		</div>
