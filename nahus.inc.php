@@ -21,9 +21,12 @@
         <article>
             <h4>Tüffeltuten lernen</h4>
             <p>
-                Wo? Latürnich auf <a class="btn btn-primary btn-small "
-                                     href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung">iversity.org</a>
-                der einzig wahren Wissenstankstelle im Netz.
+                Was? Wo? Wie? 
+                Tüffeltuten kann man lernen?<br /> 
+                Latürnich auf <a class="btn btn-primary btn-small "
+                                 href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung">iversity.org</a>
+                der ewWiN*.<br /><br />
+                <p style="font-size:0.7em">* einzig wahre Wissenstankstelle im Netz</p>
 
         </article>
     </div>
