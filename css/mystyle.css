@@ -16,7 +16,7 @@ color: #000033;
 /* seite */
 .seite {
 margin: 0 auto;
-max-width: 700px;
+max-width: 780px;
 padding: 20px;
 }
 .seite > hr {
@@ -58,10 +58,10 @@ margin-top: 28px;
  
 }
 
-
-footer .f_links  {  float: left;
-        text-align: left;
-                   }
-footer .f_rechts  {  float: rigth;
-                 text-align: right;  
+footer {
+	
+	font-size: 0.7em;
 }
+
+footer .pull-left  { text-align: left; }
+footer .pull-right  {  text-align: right;}
